@@ -1,0 +1,21 @@
+cd bin
+bash red
+
+clear
+printf "Running MJTCHAT Tool..\n"
+sleep 2
+clear
+
+bash white
+printf "This tool coded by Mr MJT [Mahdi]\n"
+printf "\n"
+printf "[1]-Create chatting room\n"
+printf "[2]-Join chatting room\n"
+read cj
+if [ $cj -eq 1 ]
+then
+    chmod +x chat && ./chat
+elif [ $cj -eq 2 ]
+then
+    chmod +x cchat && ./cchat
+fi
