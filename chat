@@ -1,11 +1,8 @@
-cd bin
-bash red
-
+cd bin && bash red
 clear
 printf "Running MJTCHAT Tool..\n"
 sleep 2
 clear
-
 bash white
 printf "This tool coded by Mr MJT [Mahdi]\n"
 printf "\n"
