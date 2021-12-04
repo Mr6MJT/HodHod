@@ -1,3 +1,4 @@
+// coded by Mr MJT
 #include <iostream>
 #include <cstdlib>
 #include <stdio.h>
@@ -25,7 +26,8 @@ int main() {
         cout << "Socket() not created\n";
         exit(1);
     }
-    cout << "Socket() created\n";
+  // Socket created
+   cout << "Socket() created\n";
     server.sin_family = AF_INET;
     server.sin_addr.s_addr = inet_addr(ip);
     server.sin_port = htons(atoi(port));
@@ -36,13 +38,15 @@ int main() {
 	cout << "Doesnot connected\n";
 	exit(1);
     }
+    // Connected
     cout << "Connected\n";
     system("clear");
     for (int i = 0; i < 999999; i++)
     {
     	system("bash red");
     	cout << "\n";
-    	printf("your friend is typing..\n");
+    	// Waiting your friend's message
+        printf("your friend is typing..\n");
     	char buffer[500];
     	int r = recv(sock, buffer, 500, 0);
     	printf("RECV: %s\n", buffer);
@@ -55,5 +59,6 @@ int main() {
         text[500] = {0};
         buffer[500] = {0};
     }
+    // Close the socket
     close(sock);
 }
