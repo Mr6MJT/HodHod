@@ -38,7 +38,8 @@ else {
   
 follow me..
     
-# SCREENSHOTS:
+# SCREENSHOT:
 
+<img src="mjtchat.png">
 
 
