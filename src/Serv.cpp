@@ -1,3 +1,4 @@
+// this software is under development
 // Coded by Mr MJT
 #include <string.h>
 #include <stdio.h>
