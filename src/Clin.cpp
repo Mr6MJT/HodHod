@@ -1,3 +1,4 @@
+// this software is under development
 // coded by Mr MJT
 #include <iostream>
 #include <cstdlib>
