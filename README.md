@@ -47,11 +47,5 @@ else {
 <img src="cn.png">
 
 
-  
-follow me..
-    
-# SCREENSHOT:
-
-<img src="">
-
+ 
 
