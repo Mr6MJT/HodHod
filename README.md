@@ -1,5 +1,5 @@
-# MJTCHAT
-MJTCHAT->Linux Chatting software,works on all linux distros.
+# LetsChat
+LetsChat->Linux Chatting software,works on all linux distros.
 
 
 -------------
@@ -40,6 +40,6 @@ follow me..
     
 # SCREENSHOT:
 
-<img src="mjtchat.png">
+<img src="">
 
 
