@@ -2,6 +2,16 @@
 LetsChat->Linux Chatting software,works on all linux distros.
 
 
+Cloning it:
+-------------
+
+git clone https://github.com/Mr6MJT/LetsChat
+
+<img src="cn.png>
+          
+
+
+
 -------------
 How to use it ?
 --------------
