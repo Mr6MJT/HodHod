@@ -7,7 +7,7 @@ Cloning it:
 
 git clone https://github.com/Mr6MJT/LetsChat
 
-<img src="cn.png">
+<img src="clone.png">
           
 
 
@@ -44,6 +44,8 @@ else {
    }
 
 }
+<img src="cn.png">
+
 
   
 follow me..
