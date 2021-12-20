@@ -1,15 +1,40 @@
 cd bin && bash red
 clear
-printf "Running MJTCHAT Tool..\n"
+printf "Running LetsChat software..\n"
 sleep 2
 clear
-bash white
-printf "This tool coded by Mr MJT [Mahdi]\n"
+bash red
+printf "This Software coded by Mr MJT [Mahdi]\n"
+sleep 0.2
 printf "\n"
-printf "[1]-Create chatting room\n"
-printf "[2]-Join chatting room\n"
-printf "[3]-Nslookup\n"
-printf "[4]-Update MJTCHAT\n"
+bash red
+printf "GitHub: "
+bash white
+printf " https://github.com/Mr6MJT\n"
+bash red
+sleep 0.5
+printf "[1]"
+bash white
+printf " - Create room\n"
+bash red
+sleep 0.5
+printf "[2]"
+bash white
+printf " - Join room\n"
+sleep 0.5
+bash red
+printf "[3]"
+bash white
+printf " - Nslookup\n"
+bash red
+sleep 0.5
+printf "[4]" 
+bash white
+printf " - Update LetsChat\n"
+sleep 0.5
+printf "\n"
+printf ">> "
+
 read cj
 if [ $cj -eq 1 ]
 then
@@ -24,7 +49,7 @@ then
     nslookup $ns    
 elif [ $cj -eq 4 ]
 then
-    cd .. && cd .. && rm -r MJTCHAT && git clone https://github.com/Mr6MJT/MJTCHAT && cd MJTCHAT && bash chat
+    cd .. && cd .. && rm -r LetsChat && git clone https://github.com/Mr6MJT/LetsChat && cd LetsChat && bash chat
 else
     cd .. && bash chat
 fi
