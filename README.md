@@ -1,5 +1,5 @@
 # LetsChat
-LetsChat->Linux Chatting software,works on all linux distros.
+LetsChat->Linux Chatting software,works on all linux distros,New update: File transfer.
 
 
 Cloning it:
