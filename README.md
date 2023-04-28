@@ -1,11 +1,11 @@
-# LetsChat
+# HodHod
 LetsChat->Linux Chatting software,works on all linux distros,New update: File transfer.
 
 
 Cloning it:
 -------------
 
-git clone https://github.com/Mr6MJT/LetsChat
+git clone https://github.com/Mr6MJT/HodHod
 
 <img src="clone.png">
           
