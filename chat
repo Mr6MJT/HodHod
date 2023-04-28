@@ -30,7 +30,7 @@ bash red
 sleep 0.5
 printf "[4]" 
 bash white
-printf " - Update LetsChat\n"
+printf " - Update HodHod\n"
 sleep 0.5
 printf "\n"
 printf ">> "
@@ -49,7 +49,7 @@ then
     nslookup $ns    
 elif [ $cj -eq 4 ]
 then
-    cd .. && cd .. && rm -r LetsChat && git clone https://github.com/Mr6MJT/LetsChat && cd LetsChat && bash chat
+    cd .. && cd .. && rm -r HodHod && git clone https://github.com/Mr6MJT/HodHod && cd LetsChat && bash chat
 else
     cd .. && bash chat
 fi
