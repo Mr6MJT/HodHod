@@ -1,6 +1,6 @@
 cd bin && bash red
 clear
-printf "Running LetsChat software..\n"
+printf "Running HodHod software..\n"
 sleep 2
 clear
 bash red
@@ -49,7 +49,7 @@ then
     nslookup $ns    
 elif [ $cj -eq 4 ]
 then
-    cd .. && cd .. && rm -r HodHod && git clone https://github.com/Mr6MJT/HodHod && cd LetsChat && bash chat
+    cd .. && cd .. && rm -r HodHod && git clone https://github.com/Mr6MJT/HodHod && cd HodHod && bash chat
 else
     cd .. && bash chat
 fi
