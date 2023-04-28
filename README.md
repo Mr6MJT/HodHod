@@ -1,5 +1,5 @@
 # HodHod
-LetsChat->Linux Chatting software,works on all linux distros,New update: File transfer.
+HodHod->Linux Chatting software,works on all linux distros,New update: File transfer.
 
 
 Cloning it:
