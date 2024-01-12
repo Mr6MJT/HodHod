@@ -4,7 +4,7 @@ printf "Running HodHod software..\n"
 sleep 2
 clear
 bash red
-printf "This Software coded by Mr MJT [Mahdi]\n"
+printf "This Software coded by Mahdi Jaber\n"
 sleep 0.2
 printf "\n"
 bash red
