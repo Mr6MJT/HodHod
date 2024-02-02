@@ -1,0 +1,7 @@
+<!-- Sample minimal pom.xml -->
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>your.group.id</groupId>
+    <artifactId>your-artifact-id</artifactId>
+    <version>1.0.0</version>
+</project>
